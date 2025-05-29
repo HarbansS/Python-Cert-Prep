@@ -308,7 +308,11 @@ print(a + b)</code>
   </ol>
   <div class="answer">
     <label class="block font-medium text-gray-700 mb-1">✍️ Your answer:</label>
-    <textarea class="w-full p-3 border border-gray-300 rounded"></textarea>
+    <textarea class="w-full p-3 border border-gray-300 rounded">serial_number = "1111-2222-3333-4444"
+print(serial_number[:4])
+print(serial_number[-4:])
+print(serial_number[5:14])
+</textarea>
   </div>
 </div>
 
@@ -355,7 +359,7 @@ city3 = "Houston"</code>
     </pre>
     <div class="answer mb-4">
       <label class="block font-medium text-gray-700 mb-1">✍️ Your answer:</label>
-      <textarea class="w-full p-3 border border-gray-300 rounded" rows="3"></textarea>
+      <textarea class="w-full p-3 border border-gray-300 rounded" rows="3">Someone might do this so they can call the single city easier or if they want to change the value of it they can without needing to mess with the whole list.</textarea>
     </div>
   </div>
 
@@ -367,8 +371,8 @@ city3 = "Houston"</code>
       <li>Use <code>insert()</code> to place <code>"Little Rock"</code> before <code>"Sacramento"</code>. Rerun the code.</li>
       <li>What is the object and method in <code>capitals.append("Sacramento")</code>?
         <ul class="list-disc list-inside ml-4">
-          <li>Object: <span class="font-semibold text-gray-600">______</span></li>
-          <li>Method: <span class="font-semibold text-gray-600">______</span></li>
+          <li>Object: <span class="font-semibold text-gray-600">Sacramento</span></li>
+          <li>Method: <span class="font-semibold text-gray-600">append()</span></li>
         </ul>
       </li>
       <li>Save the file as <code>126-list_operations-completed.py</code>.</li>
@@ -381,8 +385,7 @@ city3 = "Houston"</code>
       <li>Why does <code>"Little Rock"</code> appear twice when you run the program?</li>
       <li>What are two ways you could fix this?
         <ul class="list-disc list-inside ml-4">
-          <li>a. <span class="font-semibold text-gray-600">______</span></li>
-          <li>b. <span class="font-semibold text-gray-600">______</span></li>
+          <li>a. <span class="font-semibold text-gray-600">Maybe you added it twice so you can use insert</span></li>
         </ul>
       </li>
     </ol>
@@ -446,7 +449,7 @@ print("I am " + str(age) + " years old.")</code>
   <div class="mb-6">
     <h3 class="text-xl font-semibold text-indigo-700 mb-2">✏️ Your Turn</h3>
     <p>Create a variable for a number, convert it to a string, and print it in a sentence.</p>
-    <iframe src="PASTE_YOUR_TRINKET_LINK_HERE" width="100%" height="350" frameborder="0" allowfullscreen class="rounded"></iframe>
+    <iframe src="https://py3.codeskulptor.org/#user310_CTMfS7bZkrSvSKQ.py" width="100%" height="350" frameborder="0" allowfullscreen class="rounded"></iframe>
   </div>
 </section>
 
@@ -471,7 +474,7 @@ print("I am " + str(age) + " years old.")</code>
       <li>Name the six types of operators in the order of execution.</li>
       <li>Review the code and answer the following:
         <ul class="list-disc list-inside ml-6">
-          <li>What will happen when this code is run?</li>
+          <li>What will happen when this code is run? It will print the statement but x's value will be 8 because of the addition</li>
           <pre class="bg-gray-100 p-4 rounded-md text-sm mb-4">
 <code>x = 5
 x += 3
@@ -504,9 +507,9 @@ print("x is now:", x)</code>
 
     <h4 class="font-semibold text-gray-800 mb-2">📝 Steps for Completion</h4>
     <ol class="list-decimal list-inside text-gray-800 mb-4">
-      <li>What type of value do comparisons return?</li>
-      <li>In what sequence are comparisons evaluated?</li>
-      <li>What happens if part of a comparison is false?</li>
+      <li>What type of value do comparisons return? Boolean</li>
+      <li>In what sequence are comparisons evaluated? Left to right</li>
+      <li>What happens if part of a comparison is false? If part of a comparision is false than it is false</li>
     </ol>
     <pre class="bg-gray-100 p-4 rounded-md text-sm mb-4">
 <code>a = 10
@@ -533,14 +536,14 @@ print(a < b)    # True</code>
     <ol class="list-decimal list-inside text-gray-800 mb-4">
       <li>List the logical keywords in order of precedence:
         <ul class="list-disc list-inside ml-6">
-          <li>a. <span class="font-semibold text-gray-600">______</span></li>
-          <li>b. <span class="font-semibold text-gray-600">______</span></li>
-          <li>c. <span class="font-semibold text-gray-600">______</span></li>
+          <li>a. <span class="font-semibold text-gray-600">and</span></li>
+          <li>b. <span class="font-semibold text-gray-600">or</span></li>
+          <li>c. <span class="font-semibold text-gray-600">not</span></li>
         </ul>
       </li>
       <li>Review the code and answer the following:
         <ul class="list-disc list-inside ml-6">
-          <li>What will happen when this code is run?</li>
+          <li>What will happen when this code is run? First one will be true because both statements are true and the second one is false because of the not</li>
         </ul>
       </li>
     </ol>
@@ -576,7 +579,7 @@ print("Hello, " + name + "!")</code></pre>
   <div class="mb-6">
     <h3 class="text-xl font-semibold text-indigo-700 mb-2">✏️ Your Turn</h3>
     <p>Ask the user their favorite color and print a message with their answer.</p>
-    <iframe src="PASTE_YOUR_TRINKET_LINK_HERE" width="100%" height="350" frameborder="0" allowfullscreen class="rounded"></iframe>
+    <iframe src="https://py3.codeskulptor.org/#user310_l2IQgcJ5fYfebpN.py" width="100%" height="350" frameborder="0" allowfullscreen class="rounded"></iframe>
   </div>
 </section>
 
@@ -746,7 +749,7 @@ print("Next year you’ll be " + str(age + 1))</code></pre>
       <div class="mb-6">
         <h3 class="text-xl font-semibold text-indigo-700 mb-2">✏️ Your Turn</h3>
         <p>Ask the user how many siblings they have. Then print double that number in a sentence.</p>
-        <iframe src="PASTE_YOUR_TRINKET_LINK_HERE" width="100%" height="350" frameborder="0" allowfullscreen class="rounded"></iframe>
+        <iframe src="https://py3.codeskulptor.org/#user310_2CYpEh5xLXCPWi7.py" width="100%" height="350" frameborder="0" allowfullscreen class="rounded"></iframe>
       </div>
     </section>
 
@@ -764,7 +767,7 @@ print("Each friend gets", apples // friends, "apples")</code></pre>
       <div class="mb-6">
         <h3 class="text-xl font-semibold text-indigo-700 mb-2">✏️ Your Turn</h3>
         <p>Ask the user how many cookies they have and how many friends they’ll share with. Show how many each friend gets using division.</p>
-        <iframe src="PASTE_YOUR_TRINKET_LINK_HERE" width="100%" height="350" frameborder="0" allowfullscreen class="rounded"></iframe>
+        <iframe src="https://py3.codeskulptor.org/#user310_QgBzOmbd4fX2KQ3.py" width="100%" height="350" frameborder="0" allowfullscreen class="rounded"></iframe>
       </div>
     </section>
 
@@ -781,7 +784,7 @@ print("Hello!")</code></pre>
       <div class="mb-6">
         <h3 class="text-xl font-semibold text-indigo-700 mb-2">✏️ Your Turn</h3>
         <p>Write a small program with at least two comments that explain what each part does.</p>
-        <iframe src="PASTE_YOUR_TRINKET_LINK_HERE" width="100%" height="350" frameborder="0" allowfullscreen class="rounded"></iframe>
+          <iframe src="https://py3.codeskulptor.org/" width="100%" height="350" frameborder="0" allowfullscreen class="rounded"></iframe>
       </div>
     </section>
 <!-- LESSON 10 -->
@@ -800,7 +803,7 @@ print("Hello")</code></pre>
       <h3 class="text-xl font-semibold text-indigo-700 mb-2">✏️ Your Turn</h3>
       <p>Fix this line of code with a syntax error:</p>
       <pre class="bg-gray-100 p-4 rounded-md text-sm"><code>print("What's up"</code></pre>
-      <iframe src="PASTE_YOUR_TRINKET_LINK_HERE" width="100%" height="350" frameborder="0" allowfullscreen class="rounded"></iframe>
+      <iframe src="https://py3.codeskulptor.org/#user310_hl5PK8hVAJuZr15.py" width="100%" height="350" frameborder="0" allowfullscreen class="rounded"></iframe>
     </div>
   </section>
 
@@ -818,7 +821,7 @@ print(num + 20)</code></pre>
     <div class="mb-6">
       <h3 class="text-xl font-semibold text-indigo-700 mb-2">✏️ Your Turn</h3>
       <p>Use <code>print()</code> to figure out what's wrong in a small buggy program. Then fix it.</p>
-      <iframe src="PASTE_YOUR_TRINKET_LINK_HERE" width="100%" height="350" frameborder="0" allowfullscreen class="rounded"></iframe>
+      <iframe src="https://py3.codeskulptor.org/#user310_KtBZtIcAuwC4dwW.py" width="100%" height="350" frameborder="0" allowfullscreen class="rounded"></iframe>
     </div>
   </section>
 
@@ -835,7 +838,7 @@ print((3 + 2) * 4)    # 20</code></pre>
     <div class="mb-6">
       <h3 class="text-xl font-semibold text-indigo-700 mb-2">✏️ Your Turn</h3>
       <p>Write two print statements: one with parentheses and one without, using different math operations.</p>
-      <iframe src="PASTE_YOUR_TRINKET_LINK_HERE" width="100%" height="350" frameborder="0" allowfullscreen class="rounded"></iframe>
+      <iframe src="https://py3.codeskulptor.org/#user310_EfyRgLI5hv6cXTR.py" width="100%" height="350" frameborder="0" allowfullscreen class="rounded"></iframe>
     </div>
   </section>
 
@@ -854,7 +857,7 @@ print("Hi " + name + "! You are " + str(age) + " years old.")</code></pre>
     <div class="mb-6">
       <h3 class="text-xl font-semibold text-indigo-700 mb-2">✏️ Your Turn</h3>
       <p>Make your own short program! Use input, math, and strings to tell the user something fun or helpful.</p>
-      <iframe src="PASTE_YOUR_TRINKET_LINK_HERE" width="100%" height="350" frameborder="0" allowfullscreen class="rounded"></iframe>
+      <iframe src="https://py3.codeskulptor.org/#user310_tBo3cLJEBVqweaw.py" width="100%" height="350" frameborder="0" allowfullscreen class="rounded"></iframe>
     </div>
   </section>
       <!-- LESSON 14 -->
@@ -900,7 +903,7 @@ print(word[-1])   # Output: n</code></pre>
     <div class="bg-white border border-gray-300 rounded p-4">
       <p class="mb-2 font-semibold">Try it here:</p>
       <!-- Replace with your actual Trinket embed link -->
-      <iframe src="PASTE_YOUR_TRINKET_LINK_HERE" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
+      <iframe src="https://py3.codeskulptor.org/#user310_yXzZcQdvvpLLURR.py" width="100%" height="400" frameborder="0" allowfullscreen></iframe>
     </div>
   </div>
 </section>
